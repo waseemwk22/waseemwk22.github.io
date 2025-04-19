@@ -78,7 +78,29 @@
       flex-wrap: wrap;
       margin-bottom: 2em;
     }
-  </style>
+  
+
+.badge {
+  display: inline-block;
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  padding: 0.3em 0.9em;
+  margin: 0.3em;
+  border-radius: 999px;
+  font-size: 0.9em;
+  font-weight: 500;
+  border: 1px solid #333;
+  white-space: nowrap;
+}
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 1em auto 2em auto;
+  max-width: 800px;
+}
+
+</style>
 </head>
 <body>
   <div class="badges">
@@ -104,9 +126,14 @@
 
   <h1><a href="https://apps.apple.com/us/app/premierone-mobile/id1452289814">PremierOne Mobile</a></h1>
   <p>PremierOne Mobile is a mobile application for public safety professionals.</p>
-  <ul>
-    <li>⚡ Swift</li><li>🎨 SwiftUI</li><li>🔐 MFA</li><li>📏 SwiftLint</li><li>✈️ TestFlight</li><li>⚡ Swift Package Manager</li>
-  </ul>
+  <div class="tech-badges">
+  <span class="badge">⚡&nbsp; Swift</span>
+  <span class="badge">🎨&nbsp; SwiftUI</span>
+  <span class="badge">🔐&nbsp; MFA</span>
+  <span class="badge">📏&nbsp; SwiftLint</span>
+  <span class="badge">✈️&nbsp; TestFlight</span>
+  <span class="badge">⚡&nbsp; Swift Package Manager</span>
+</div>
   <div class="image-row">
     <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/1d/5e/f8/1d5ef88d-0989-fca4-d3ec-c0205731d5a2/pr_source.png/460x0w.webp" width="250"/>
     <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/7a/bb/31/7abb313b-cbc9-d9d8-bb05-912e5e78efff/pr_source.png/460x0w.webp" width="250"/>
@@ -115,10 +142,17 @@
 
   <h1>ProCon</h1>
   <p>Enterprise-level iPad app for internal use by USIS Inc (USA).</p>
-  <ul>
-    <li>⚡ Swift</li><li>📱 iPad</li><li>📴 Offline support</li><li>⛁ CoreData</li><li>ᛒ Bluetooth check-in/out</li>
-    <li>🔥 Firebase</li><li>🔔 FCM</li><li>⬇️ Apple Enterprise Distribution</li><li>© Cocoapods</li>
-  </ul>
+  <div class="tech-badges">
+  <span class="badge">⚡&nbsp; Swift</span>
+  <span class="badge">📱&nbsp; iPad</span>
+  <span class="badge">📴&nbsp; Offline support</span>
+  <span class="badge">⛁&nbsp; CoreData</span>
+  <span class="badge">ᛒ&nbsp; Bluetooth check-in/out</span>
+  <span class="badge">🔥&nbsp; Firebase</span>
+  <span class="badge">🔔&nbsp; FCM</span>
+  <span class="badge">⬇️&nbsp; Apple Enterprise Distribution</span>
+  <span class="badge">©&nbsp; Cocoapods</span>
+</div>
   <div class="image-row">
     <img src="https://github.com/user-attachments/assets/67e60b81-3400-4d41-bbf4-96f9cc5eb55e" width="300"/>
     <img src="https://github.com/user-attachments/assets/5eb88b82-62b3-480e-b491-dfeba94171b8" width="300"/>
@@ -131,10 +165,17 @@
 
   <h1><a href="https://apps.apple.com/lb/app/noknok-groceries-made-fast/id1360852720">noknok - Groceries made fast</a></h1>
   <p>Grocery delivery app operating in Lebanon and Ghana.</p>
-  <ul>
-    <li>⚡ Swift</li><li>👾 Objective C</li><li>⛁ Segment</li><li>📊 Mixpanel</li><li>📊 Firebase</li>
-    <li>ⓕ Facebook SDK</li><li>🎯 OneSignal</li><li>🎯 Adjust</li><li>💳 Payment Gateway Integrations</li>
-  </ul>
+  <div class="tech-badges">
+  <span class="badge">⚡&nbsp; Swift</span>
+  <span class="badge">👾&nbsp; Objective C</span>
+  <span class="badge">⛁&nbsp; Segment</span>
+  <span class="badge">📊&nbsp; Mixpanel</span>
+  <span class="badge">📊&nbsp; Firebase</span>
+  <span class="badge">ⓕ&nbsp; Facebook SDK</span>
+  <span class="badge">🎯&nbsp; OneSignal</span>
+  <span class="badge">🎯&nbsp; Adjust</span>
+  <span class="badge">💳&nbsp; Payment Gateway Integrations</span>
+</div>
   <div class="image-row">
     <img src="https://github.com/user-attachments/assets/f98edd00-7eaf-4cc7-81d6-2702ca34b4de" width="250"/>
     <img src="https://github.com/user-attachments/assets/d38c5d66-0d6f-4bd1-999c-00a6a76cc130" width="250"/>
@@ -143,9 +184,11 @@
 
   <h1><a href="https://apps.apple.com/us/app/global-rescue-grid/id1084623977">Global Rescue GRID</a></h1>
   <p>Enterprise app for Global Rescue LLC customers.</p>
-  <ul>
-    <li>👾 Objective C</li><li>⛁ CoreData</li><li>🔔 FCM</li>
-  </ul>
+  <div class="tech-badges">
+  <span class="badge">👾&nbsp; Objective C</span>
+  <span class="badge">⛁&nbsp; CoreData</span>
+  <span class="badge">🔔&nbsp; FCM</span>
+</div>
   <div class="image-row">
     <img src="https://github.com/user-attachments/assets/780115ec-a8b9-49f5-9b21-321d972ea5dc" width="250"/>
     <img src="https://github.com/user-attachments/assets/3ffb0a10-0ea7-4659-95fc-0795862089a0" width="250"/>
@@ -154,9 +197,11 @@
 
   <h1><a href="https://apps.apple.com/pl/app/tameerapp/id1555993270">Tameer</a></h1>
   <p>Construction and building materials ordering app.</p>
-  <ul>
-    <li>⚡ Swift</li><li>📊 Firebase</li><li>🦈 RxSwift</li>
-  </ul>
+  <div class="tech-badges">
+  <span class="badge">⚡&nbsp; Swift</span>
+  <span class="badge">📊&nbsp; Firebase</span>
+  <span class="badge">🦈&nbsp; RxSwift</span>
+</div>
   <div class="image-row">
     <img src="https://github.com/user-attachments/assets/e40fdc2c-2288-46f9-b4d3-b3e9630c91ff" width="250"/>
     <img src="https://github.com/user-attachments/assets/a61cdb36-4c55-4617-a9c1-16c6b0d43053" width="250"/>
